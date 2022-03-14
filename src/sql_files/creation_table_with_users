@@ -1,0 +1,24 @@
+CREATE DATABASE homeWork_2_lesson_3;
+
+USE homeWork_2_lesson_3;
+
+CREATE TABLE users
+(
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(20) NOT NULL,
+    last_name VARCHAR(20) NOT NULL,
+    age INT NOT NULL
+);
+
+INSERT INTO users (name, last_name, age) VALUES ("Maxim", "Antanovich", 25);
+INSERT INTO users (name, last_name, age) VALUES ("Pavel", "Klimov", 21);
+INSERT INTO users (name, last_name, age) VALUES ("Jana", "Zhak", 27);
+INSERT INTO users (name, last_name, age) VALUES ("Arkady", "Bulyga", 26);
+INSERT INTO users (name, last_name, age) VALUES ("Ivan", "Hayel", 22);
+INSERT INTO users (name, last_name, age) VALUES ("Daniil", "Radkovich", 20);
+INSERT INTO users (name, last_name, age) VALUES ("Adrian", "Sakharievich", 23);
+INSERT INTO users (name, last_name, age) VALUES ("Dmitry", "Strelec", 29);
+INSERT INTO users (name, last_name, age) VALUES ("Alexey", "Semionov", 24);
+INSERT INTO users (name, last_name, age) VALUES ("Valdemar", "Rataika", 35);
+INSERT INTO users (name, last_name, age) VALUES ("Katerina", "Zakharenko", 23);
+INSERT INTO users (name, last_name, age) VALUES ("Aliaksandr", "Dziamieshchyk", 22);

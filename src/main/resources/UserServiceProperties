@@ -1,0 +1,3 @@
+user = admin
+password = admin
+url = jdbc:mysql://localhost:3306/homeWork_2_lesson_3
