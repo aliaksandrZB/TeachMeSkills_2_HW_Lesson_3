@@ -1,6 +1,6 @@
-package com.tms.calculator;
+package com.tms.calculatorWebApp.model;
 
-import com.tms.servlet.ServletCalculator;
+import com.tms.calculatorWebApp.servlet.ServletCalculator;
 
 public class Calculator {
     

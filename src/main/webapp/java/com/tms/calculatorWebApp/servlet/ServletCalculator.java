@@ -1,8 +1,7 @@
-package com.tms.servlet;
+package com.tms.calculatorWebApp.servlet;
 
-import com.tms.calculator.Calculator;
+import com.tms.calculatorWebApp.model.Calculator;
 
-import javax.jws.WebService;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
