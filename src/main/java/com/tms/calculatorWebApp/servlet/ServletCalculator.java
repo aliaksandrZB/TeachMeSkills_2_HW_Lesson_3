@@ -25,8 +25,7 @@ public class ServletCalculator extends HttpServlet {
 
         if (bugReport == null) {
             resp.getWriter().println(Double.parseDouble(num1) + " " + sign + " " +
-                                     Double.parseDouble(num2) + " = " +
-                                     sum);
+                                     Double.parseDouble(num2) + " = " + sum);
             sign = null;
         } else {
             resp.getWriter().println(bugReport);
