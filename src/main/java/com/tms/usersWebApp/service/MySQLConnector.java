@@ -13,8 +13,9 @@ import java.util.Properties;
 public class MySQLConnector {
 
     private static final String MYSQL_DRIVER_CLASS_NAME = "com.mysql.cj.jdbc.Driver";
-    private static final String CONNECTIVITY_PROPERTY_FILE_PATH = "src" + File.separator + "main" + File.separator +
-                                                                  "resources" + File.separator + "UserServiceProperties";
+    private static final String CONNECTIVITY_PROPERTY_FILE_PATH = "D:\\Java\\myproject\\HomeWork_2_Lesson_3\\src\\main\\resources\\UserServiceProperties";
+//    private static final String CONNECTIVITY_PROPERTY_FILE_PATH = "src" + File.separator + "main" + File.separator +
+//                                                                  "resources" + File.separator + "UserServiceProperties";
 
     private static Properties properties;
     private static Connection connection;

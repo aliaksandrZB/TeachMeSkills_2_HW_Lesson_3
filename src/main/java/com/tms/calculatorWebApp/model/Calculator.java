@@ -2,8 +2,11 @@ package com.tms.calculatorWebApp.model;
 
 import com.tms.calculatorWebApp.servlet.ServletCalculator;
 
-public class Calculator {
-    
+public abstract class Calculator {
+
+    private Calculator() {
+    }
+
     private static double addition(double num1, double num2) {
         return num1 + num2;
     }

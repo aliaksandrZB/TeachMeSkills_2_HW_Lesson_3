@@ -5,10 +5,10 @@ import java.io.IOException;
 
 public class MyWriter {
 
-    private static HttpServletResponse response;
+    private HttpServletResponse response;
 
-    public MyWriter(HttpServletResponse response) {
-        this.response = response;
+    public MyWriter(HttpServletResponse resp) {
+        response = resp;
     }
 
     public static void println(String massage) {
